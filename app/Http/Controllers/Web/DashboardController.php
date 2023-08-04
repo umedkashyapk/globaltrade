@@ -25,6 +25,9 @@ class DashboardController extends Controller
 
        //dd($cakePrice);
 
+        // this is for testing
+
+        
         $walletBalance=$this->getWalletBalance($loggedInUser->cWalletInfo->address,'CV');
         $usdtBalance=$this->getWalletBalance($loggedInUser->cWalletInfo->address,'USDT');
         $bnbBalance=$this->getAccountBalance($loggedInUser->cWalletInfo->address);
