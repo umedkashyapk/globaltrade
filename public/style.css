@@ -1,0 +1,11 @@
+
+.link-list-plain button {
+	display: flex;
+	align-items: center;
+	padding: .5rem 1.25rem;
+	color: #526484;
+	transition: all .4s;
+	line-height: 1.4rem;
+	position: relative;
+    font-weight:normal
+}
